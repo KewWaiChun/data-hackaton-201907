@@ -16,6 +16,9 @@ A visual pack allows the developer to teach giant to render custom and unique vi
 
     ![npm install](./images/npm-install.PNG)
 
+    > If you see error below![npm not install](./images/npm-not-installed.png) please install nodejs first and retry.
+
+
 5. After `npm install` is completed, run `npm run debug` and open localhost:8080 in browser to see the sample visual.
 
     ![npm run debug](./images/npm-run-debug.PNG)
@@ -56,5 +59,6 @@ A visual pack allows the developer to teach giant to render custom and unique vi
 ### Additional Information
 - `src/app.js`: Render logic, how to use the data and create the chart.
 - `src/app.scss`: Styling of chart, how to make the chart beautiful.
+- `src/program.js`: Mock data used for debugging, data that I see in localhost.
 - `publish/visual/quadrant-properties.html`: Properties/Setting panel, what data I need to provide to render the chart.
 - `publish/visual/quadrant-properties.js`: Underlying process, what are the data and its name I need from the properties panel.
