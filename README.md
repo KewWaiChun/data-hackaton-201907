@@ -1,4 +1,4 @@
-# data-hackaton-201907
+# Data Hackaton
 
 ## Prerequisites:
 - Visual Studio Code
@@ -24,7 +24,7 @@
 
 ## Access to GIANT
 - Get your GIANT account from the person in charge.
-- Go to the provided GIANT url.
+- Go to the provided GIANT [url](http://fx-hackathon2019.fusionexgiant.com/Analytics).
 - Login to your GIANT account by typing your email and password.
 
     ![GIANT login](./images/giant.PNG)
