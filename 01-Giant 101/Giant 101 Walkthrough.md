@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document will guide you in using (Fusionex GIANT] (https://www.fusionexgiant.com/) as your analytics platform. 
+This document will guide you in using [Fusionex GIANT](https://fx-hackathon2019.fusionexgiant.com/Analytics) as your analytics platform. 
 
 >  **What you'll learn:** ETL stands for Extract, Transform, Load. It is the procedure by which data is obtained from one or more sources, aggregated into useful data and then stored in a data warehouse for later analysis. ETL is a crucial fundamentals step that makes data analytics possible.
 
@@ -11,7 +11,7 @@ This document will guide you in using (Fusionex GIANT] (https://www.fusionexgian
 GIANT is an easy to use analytics platform that enables companies to derive insights by performing analysis on vast amounts of data (also known as big data). This allows companies to pin point ways to improve their operations and determine new business opportunities.
 
 
-# **LETS BEGIN!**
+# **LET'S BEGIN!**
 
 ## 1) Loading Your Data
 
@@ -58,7 +58,7 @@ There are three columns that you might have noticed to have incorrect or inconsi
 * **Normal Sales Quantity**
 * **State-City**
 
-Lets perform some data cleaning on this troublesome columns.
+Let's perform some data cleaning on this troublesome columns.
 
 ### 2.1)  Gender
 
@@ -194,7 +194,7 @@ Click on the icon with the three vertical bars on the top right corner and selec
 
 Ensure you assign an appropriate title for your graph to avoid confusion. You can hover your mouse pointer over the data points to view the values.
 
-![data_point](./images/data_point.PNG)
+![data_point](./images/data_point.png)
 
 # Conclusion
 
