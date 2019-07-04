@@ -1,4 +1,4 @@
-# data-hackaton-201907
+# Data Hackaton (2019/July)
 
 ## Prerequisites:
 - Visual Studio Code
