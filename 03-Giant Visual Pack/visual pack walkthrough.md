@@ -1,32 +1,37 @@
 # Visual Pack 101
 
 ## Introduction
-A visual pack allows the developer to teach giant to render custom and unique visuals that are data driven.
+A visual pack allows the developer to teach GIANT how to render custom and unique visuals that are data driven.
 
 ## Setting Up
-1. Download the sample visual pack from [github here here](https://github.com/fx-giant/visual-pack-nodejs-sample).
-> Note: you may perform `git clone` as well.
+1. Download the sample visual pack from github [here](https://github.com/fx-giant/visual-pack-nodejs-sample).
+> Note : you also may perform `git clone` to get the sample visual pack.
 
-2. Unzip the sample visual pack. Next, launch Visual Studio Code and open the folder.
+2. Unzip the sample visual pack. Then launch Visual Studio Code and open the folder you just downloaded.
     
     ![open_folder](./images/open_folder.png)
     
-3. Open New Terminal in Visual Studio Code by clicking *Terminal* => *New Terminal*
-4. In the terminal, run `npm install`.
+3. Open a New Terminal in Visual Studio Code by clicking *Terminal* => *New Terminal* found in the tab in the top left hand corner of your screen.
+
+4. In the terminal, type and run `npm install`.
 
     ![npm install](./images/npm-install.PNG)
 
-5. After `npm install` is completed, run `npm run debug` and open localhost:8080 in browser to see the sample visual.
+    > If you see the error below![npm not install](./images/npm-not-installed.png) please install nodejs and retry.
+
+
+5. After `npm install` is completed, run `npm run debug` and open **localhost:8080** in a new browser to see the sample visuals.
 
     ![npm run debug](./images/npm-run-debug.PNG)
 
     ![localhost:8080](./images/localhost.PNG)
     > Debugging can be done here.
+
 6. Follow the guide in [here](https://github.com/fx-giant/visual-pack-nodejs-sample) to upload the visual pack to GIANT. Run `npm run publish` to upload. 
 
     ![npm run publish](./images/npm-run-publish.PNG)
     > **Make sure to follow the steps in the [documentation](https://github.com/fx-giant/visual-pack-nodejs-sample) before running `npm run publish`.**
-7. Go to GIANT, *My Dashboard(s)* => *Add* => *VIEW DASHBOARD* => *Add*. You should see the visual pack you uploaded in the list of charts.
+7. Go to GIANT, **My Dashboard(s)** => **Add** => **VIEW DASHBOARD** => **Add**. You should see the visual pack you uploaded in the list of charts.
 
 ## Creating Contact Chips
 
@@ -51,10 +56,11 @@ A visual pack allows the developer to teach giant to render custom and unique vi
     ![quadrant properties js](./images/quadrant-properties-js.PNG)
 
 5. Run `npm run publish` to upload the visual pack to GIANT.
-6. Using [this](./visual-pack-101.csv) as connection source, render the contact chips.
+6. Using [this](./visual-pack-101.csv) as a connection source, render the contact chips.
 
 ### Additional Information
 - `src/app.js`: Render logic, how to use the data and create the chart.
-- `src/app.scss`: Styling of chart, how to make the chart beautiful.
+- `src/app.scss`: Styling of chart, how to make the chart aesthetically pleasing.
+- `src/program.js`: Mock data used for debugging, data that you  see in localhost.
 - `publish/visual/quadrant-properties.html`: Properties/Setting panel, what data I need to provide to render the chart.
 - `publish/visual/quadrant-properties.js`: Underlying process, what are the data and its name I need from the properties panel.
