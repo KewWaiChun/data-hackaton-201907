@@ -56,7 +56,7 @@ A visual pack allows the developer to teach GIANT how to render custom and uniqu
     ![quadrant properties js](./images/quadrant-properties-js.PNG)
 
 5. Run `npm run publish` to upload the visual pack to GIANT.
-6. Using [this](./visual-pack-101.csv) as a connection source, render the contact chips.
+6. Using [this](https://github.com/fx-giant/data-hackaton-201907/blob/master/03-Giant%20Visual%20Pack/data%20sources/visual-pack-101.csv) as a connection source, render the contact chips.
 
 ### Additional Information
 - `src/app.js`: Render logic, how to use the data and create the chart.
