@@ -11,7 +11,7 @@ This document will guide you in using (Fusionex GIANT](https://fx-hackathon2019.
 GIANT is an easy to use analytics platform that enables companies to derive insights by performing analysis on vast amounts of data (also known as big data). This allows companies to pin point ways to improve their operations and determine new business opportunities.
 
 
-# **LETS BEGIN!**
+# **LET'S BEGIN!**
 
 ## 1) Loading Your Data
 
@@ -57,7 +57,7 @@ There are three columns that you might have noticed to have incorrect or inconsi
 * Normal Sales Quantity
 * State-City
 
-Lets perform some data cleaning on this troublesome columns.
+Let's perform some data cleaning on this troublesome columns.
 
 ### 2.1) Gender
 
@@ -175,7 +175,7 @@ You might have noticed that the key column is now repeated twice in the merged d
 Now, let's create a visual using the newly merged data set. Go back to your dashboard and add a new chart. Choose a "Scatter Plot" chart and proceed to select the data source for your chart. Make sure to select the merged data set and not the others (You will know by the icon shown to the left of the data set name. Merged data sets has the" linked sources" icon shown).
 
 Select the following for the chart's data bindings:
-* X-Axis: Data Aggregation - "None", Column - Average Sales
+* X-Axis: Data Aggregation - "None", Column - Average Income
 * Y-Axis: Data Aggregation - "Average", Column - Total Sales Amount
 * Size: Data Aggregation - "Average", Column - Total Sales Quantity
 * Group: State
