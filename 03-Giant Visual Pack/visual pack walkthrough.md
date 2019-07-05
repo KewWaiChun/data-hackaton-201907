@@ -163,7 +163,7 @@ window["myCustomVisual"].default.render({
 
     ![localhost result](./images/localhost-image.PNG)
 7. Run `npm run publish` to upload the visual pack to GIANT.
-8. Using [this](./visual-pack-101.csv) as a connection source, render the contact chips. 
+8. Using [this](https://github.com/fx-giant/data-hackaton-201907/blob/master/03-Giant%20Visual%20Pack/data%20sources/visual-pack-101.csv) as a connection source, render the contact chips. 
 
     ![giant widget](./images/giant-widget.PNG)
 
